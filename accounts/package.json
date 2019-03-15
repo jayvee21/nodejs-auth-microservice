@@ -1,0 +1,21 @@
+{
+  "name": "accounts",
+  "version": "1.0.0",
+  "description": "Primary service to handle accounts",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "JAYVEE GERERO",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "circular-json": "^0.5.9",
+    "express": "^4.16.4"
+  }
+}
